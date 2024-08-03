@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    background-color: bisque;
+    margin: 0;
+}
+
+nav a{
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+    box-shadow: 2px 2px 20px 0 rgb(0, 0, 0);
+}
+.golovna{
+    position: fixed;
+    top: 20px;
+    background-color:#8f8f8f; 
+}
+.catalog{
+    position: fixed;
+     top: 80px;
+    background-color:#8f8f8f; 
+}
+.vidguki{
+    position: fixed;
+    top: 140px;
+    background-color:#8f8f8f;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
+}
+.tovar{
+    width: 40%;
+    margin-top: 50px;
+    background-color: beige;
+    border-radius: 35px;
+    height: 500px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    
+
+}
+.tovar img{
+    height: 80%;
+    transition: 0.2s ease-in;
+    
+}
+.tovar img:hover{
+    transform: scale(1.15);
+}
+
+
+footer{
+    margin: 0;
+    height: 220px;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+.div_f{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #000000;
+    padding-top: 10px;
+}
+footer p{
+    color: white;
+    width: 100%;
+}
+.number{
+    font-size: 24px;
+}

@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color:#481677;
+}
+
+.inf{
+    font-size: 20px;
+    font-weight: 700;
+    color:#481677;
+}
+
+p{
+    width: 70%;
+}
+
+
+nav a{
+    position: absolute;
+    left: -90px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+    box-shadow: 2px 2px 20px 0 rgb(0, 0, 0);
+}
+.golovna{
+    position: fixed;
+    top: 20px;
+    background-color:#8f8f8f; 
+}
+.catalog{
+    position: fixed;
+     top: 80px;
+    background-color:#8f8f8f; 
+}
+.vidguki{
+    position: fixed;
+    top: 140px;
+    background-color:#8f8f8f;
+}
+
+.main-photo{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://learn.logikaschool.com/uploads/student/4568056/669ba5e797907.jpg');
+    width: 100%;
+    height: 100vh; 
+    background-size: cover; /* Зробити фон покривним */
+    background-position: center; /* Центрувати фон */
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.main-photo img{
+    margin-top: 50px;
+    width: 300px;
+}
+.main-photo p{
+    width: 700px;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55vh;
+    
+}
+
+.main-gif{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://learn.logikaschool.com/uploads/student/4568056/669bab6fcb61c.gif'); /* URL до вашого GIF */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left, .right{
+    font-size: 30px;
+    width: 500px;
+    text-align: justify;
+}
+.left{
+    margin-right: 20px;
+}
+
+.end{
+    height: 100vh;
+    background-color: #ffffff;
+    width: 100%;
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://learn.logikaschool.com/uploads/student/4568056/66acc2c3d9707.svg");
+    background-size: cover; /* Зробити фон покривним */
+    background-position: center; /* Центрувати фон */
+    background-repeat: no-repeat;
+}
+.end_div{
+    width: 50%;
+    height: 75%;
+    background-color: rgb(202, 202, 202, 0.9);
+    border-radius: 35px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    text-align: center;
+    
+    
+}
+.end_div img{
+    width: 50%;
+}
+.end_div a{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: 0.2s linear;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    border: 2px solid black;
+    
+}
+.end_div a:hover{
+    background-color: #000000;
+    color: aliceblue;
+    box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+}
+
+
+footer{
+    margin: 0;
+    height: 220px;
+    width: 100%;
+    background-color: black;
+}
+.div_f{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #000000;
+    padding-top: 10px;
+}
+footer p{
+    color: white;
+    width: 100%;
+}
+.number{
+    font-size: 24px;
+}
