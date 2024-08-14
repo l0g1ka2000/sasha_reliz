@@ -1,22 +1,21 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    background: rgb(154,154,154);
+    background: linear-gradient(90deg, rgba(154,154,154,1) 0%, rgba(171,171,247,1) 52%, rgba(167,162,252,1) 100%);
 }
 
-main{
-    height: 100vh;
-}
 
 
 nav a{
     position: absolute;
-    left: -90px;
+    left: -100px;
     transition: 0.3s;
     padding: 15px;
     width: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 0 5px 5px 0;
 }
 nav a:hover{
@@ -26,36 +25,45 @@ nav a:hover{
 .golovna{
     position: fixed;
     top: 20px;
-    background-color:#8f8f8f; 
+    background-color:#000000; 
 }
 .catalog{
     position: fixed;
-     top: 80px;
-    background-color:#8f8f8f; 
+    top: 80px;
+    background-color:#000000; 
 }
 .vidguki{
     position: fixed;
     top: 140px;
-    background-color:#8f8f8f;
+    background-color:#000000;
 }
 
 
 main{
     width: 100%;
-    height: 320vh;
-    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.2);
+    width:70% ;
+    box-shadow: 0px 0px 15px 5px black;
+    margin-top: 50px;
 }
 main p{
-    width:70% ;
+    width:95% ;
     font-size: 26px ;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
-}
-main img{
-    width: 70%;
-    margin: 50px 0px;
 
+
+}
+
+main img:hover{
+    filter: blur(1);
 }
 
 

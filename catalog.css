@@ -12,7 +12,7 @@ nav a{
     width: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 0 5px 5px 0;
 }
 nav a:hover{
@@ -22,17 +22,17 @@ nav a:hover{
 .golovna{
     position: fixed;
     top: 20px;
-    background-color:#8f8f8f; 
+    background-color:#000000; 
 }
 .catalog{
     position: fixed;
-     top: 80px;
-    background-color:#8f8f8f; 
+    top: 80px;
+    background-color:#000000; 
 }
 .vidguki{
     position: fixed;
     top: 140px;
-    background-color:#8f8f8f;
+    background-color:#000000;
 }
 
 

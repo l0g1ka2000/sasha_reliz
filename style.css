@@ -21,13 +21,13 @@ p{
 
 nav a{
     position: absolute;
-    left: -90px;
+    left: -100px;
     transition: 0.3s;
     padding: 15px;
     width: 100px;
     text-decoration: none;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 0 5px 5px 0;
 }
 nav a:hover{
@@ -37,25 +37,26 @@ nav a:hover{
 .golovna{
     position: fixed;
     top: 20px;
-    background-color:#8f8f8f; 
+    background-color:#000000; 
 }
 .catalog{
     position: fixed;
-     top: 80px;
-    background-color:#8f8f8f; 
+    top: 80px;
+    background-color:#000000; 
 }
 .vidguki{
     position: fixed;
     top: 140px;
-    background-color:#8f8f8f;
+    background-color:#000000;
 }
+
 
 .main-photo{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://learn.logikaschool.com/uploads/student/4568056/669ba5e797907.jpg');
     width: 100%;
     height: 100vh; 
-    background-size: cover; /* Зробити фон покривним */
-    background-position: center; /* Центрувати фон */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -70,7 +71,9 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 55vh;
-    
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
 }
 
 .main-gif{
